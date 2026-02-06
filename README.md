@@ -40,4 +40,21 @@ Yelp Boost is a weighted hybrid recommendation system designed to predict user r
 ## Hyperparameter Tuning
 
 - Hyperparameter tuning for XGBoost and CatBoost is implemented using Optuna.
-- The tuning code is commented out due to time constraints and unavailability of Optuna in certain environments. 
+- The tuning code is commented out due to time constraints and unavailability of Optuna in certain environments.
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-branch
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add new feature"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-branch
+   ```
+5. Open a pull request.
+
