@@ -14,3 +14,17 @@ Yelp Boost is a weighted hybrid recommendation system designed to predict user r
 - `business.json`: Includes business attributes like latitude, longitude, stars, and binary attributes (e.g., `GoodForKids`, `HasTV`).
 - `review_train.json`: Aggregates `useful`, `funny`, and `cool` counts for each business.
 - `checkin.json`: Aggregates check-in counts for each business.
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Yelp_Boost
+   ```
+3. Install the required Python packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
