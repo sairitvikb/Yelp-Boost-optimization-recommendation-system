@@ -28,3 +28,12 @@ Yelp Boost is a weighted hybrid recommendation system designed to predict user r
    ```bash
    pip install -r requirements.txt
    ```
+## Usage
+
+1. Place the required JSON files (`user.json`, `business.json`, etc.) and the training CSV file (`yelp_train.csv`) in the specified folder.
+2. Run the main script:
+   ```bash
+   python main.py <folder_path> <val_file> <output_file>
+   ```
+   Replace `<folder_path>`, `<val_file>`, and `<output_file>` with the appropriate paths.
+3. The script generates predictions in the specified `<output_file>` and prints the RMSE and error distribution.
