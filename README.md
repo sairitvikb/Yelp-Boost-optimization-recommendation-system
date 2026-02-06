@@ -58,3 +58,8 @@ Yelp Boost is a weighted hybrid recommendation system designed to predict user r
    ```
 5. Open a pull request.
 
+## Acknowledgments
+
+- **XGBoost** and **CatBoost** for their powerful machine learning capabilities.
+- **Optuna** for hyperparameter optimization.
+- The Yelp dataset for providing the data used in this project.
